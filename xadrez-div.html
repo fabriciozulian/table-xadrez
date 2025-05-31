@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xadrez com DIV</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        div.pai {
+            margin-bottom: -4px;
+            display: flex;
+            justify-content: center;
+        }
+
+        div.preto{
+            background-image: url("placa_preta.jpg");
+            width: 105px;
+            height: 105px;
+            display: inline-block;
+            margin-right: -7px;
+            margin-bottom: -10px;
+        }
+
+         div.branco{
+            background-image: url("placa_branca.jpg");
+            width: 105px;
+            height: 105px;
+            display: inline-block;
+            margin-right: -7px;
+            margin-bottom: -10px;
+        }
+
+        .torrebranco {
+            background-image: url("placa_branca.jpg");
+            width: 105px;
+            height: 105px;
+            display: inline-block;
+            margin-right: -7px;
+            margin-bottom: -10px;
+        }
+
+        p{
+            font-size: 2cm;
+            text-align: center;
+            font-family: 'Butterfly Kids';
+            font-weight: 600;
+            color: rgb(26, 63, 224);
+        }
+    </style>
+</head>
+<body background="BG.jpg">
+    <p> Xadrez em div</p>
+    <div aling="center" class="pai">
+       <div class="preto torrebranco"><img src="torre_preta.gif"></div>
+       <div class="branco"><img src="cavalo_preto.gif"></div>
+       <div class="preto"><img src="bispo_preto.gif"></div>
+       <div class="branco"><img src="rainha_preta.gif"></div>
+       <div class="preto"><img src="rei_preto.gif"></div>
+       <div class="branco"><img src="bispo_preto.gif"></div>
+       <div class="preto"><img src="cavalo_preto.gif"></div>
+       <div class="branco"><img src="torre_preta.gif"></div>
+    </div>
+</body>
+</html>
