@@ -1,0 +1,37 @@
+body {
+    background-image: image-set("BG.jpg");
+}
+
+.conteudo__titulo {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.conteudo__tabela {
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo__tabela > tr > tb {
+    margin: 0;
+}
+
+.bg-branco {
+    background-image: image-set('placa_branca.jpg');
+}
+
+.bg-preto {
+    background-image: image-set('placa_preta.jpg');
+}
+
+td {
+    width: 70px;
+    height: 70px;
+}
+
+td > img {
+    height: 70px;
+    width: 70px;
+}
+
